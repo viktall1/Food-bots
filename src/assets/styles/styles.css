@@ -1,0 +1,56 @@
+/* header styles */
+
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 40px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a:hover,
+a:focus {
+  color: gray;
+  text-decoration: underline;
+  transition: all 1s;
+}
+
+/* profile styles */
+.profile-bg,
+.order-bg {
+  background-image: linear-gradient(to right, #fdfbfb, #ebedee);
+  background-position: 0 -250px;
+  margin-top: -39px;
+}
+
+.box-shadow {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+}
+.profile-img {
+  height: 15.5rem;
+  width: 15.5rem;
+  justify-self: center;
+  justify-content: center;
+}
+
+/* order summary styles */
+
+/* footer styles */
+
+.footer {
+  background: #fff;
+}
+
+/* error page */
+.error-page, .loading-page {
+  height: 40vh;
+  margin-top: 20vh;
+}
