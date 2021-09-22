@@ -98,7 +98,7 @@ export default function Profile() {
                                         <div className="float-left"><h6 className="card-subtitle mb-2 text-muted"> My Profile Setings</h6></div>
                                     </div>
                                     <hr />
-                                    <form action="">
+                                    <form >
                                         {/* No `onChange` handler was specified, this will render a read-only field. so the fields are set as `readOnly`. */}
                                         <h5>
                                             User information
@@ -123,8 +123,8 @@ export default function Profile() {
                                             <textarea className="form-control" name="about" id="about" value={profile.about} readOnly></textarea>
                                         </div>
                                         <div className="form-group">
-                                            <button className="btn btn-dark ">
-                                                Edit Profile
+                                            <button className="btn btn-dark " disabled>
+                                                Update Profile
                                             </button>
                                         </div>
 
